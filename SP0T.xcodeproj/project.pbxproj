@@ -12,7 +12,6 @@
 		50B3CC0E109C3EEC0FCEC67E /* Pods_SP0TTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD71F3AE3001DF9735A9D7C /* Pods_SP0TTests.framework */; };
 		5934D37320D33C8300D16CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5934D37220D33C8300D16CEA /* AppDelegate.swift */; };
 		5934D37520D33C8300D16CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5934D37420D33C8300D16CEA /* ViewController.swift */; };
-		5934D37820D33C8300D16CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5934D37620D33C8300D16CEA /* Main.storyboard */; };
 		5934D37A20D33C8500D16CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5934D37920D33C8500D16CEA /* Assets.xcassets */; };
 		5934D37D20D33C8500D16CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5934D37B20D33C8500D16CEA /* LaunchScreen.storyboard */; };
 		5934D38820D33C8600D16CEA /* SP0TTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5934D38720D33C8600D16CEA /* SP0TTests.swift */; };
@@ -20,7 +19,10 @@
 		5934D3A120D33DB800D16CEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5934D3A020D33DB800D16CEA /* GoogleService-Info.plist */; };
 		5934D3A220D33DB800D16CEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5934D3A020D33DB800D16CEA /* GoogleService-Info.plist */; };
 		5934D3A320D33DB800D16CEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5934D3A020D33DB800D16CEA /* GoogleService-Info.plist */; };
-		5934D3A820D4A3F900D16CEA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5934D3A720D4A3F900D16CEA /* MainVC.swift */; };
+		594A535920EB221A00A0F90D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594A535820EB221A00A0F90D /* MainVC.swift */; };
+		594A535E20EEFB3600A0F90D /* forgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594A535D20EEFB3600A0F90D /* forgotPassword.swift */; };
+		5963CF6B20E5B0AA00848AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5963CF6A20E5B0AA00848AB0 /* Main.storyboard */; };
+		5963CFED20E98B3600848AB0 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5963CFEC20E98B3600848AB0 /* loginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,6 @@
 		5934D36F20D33C8300D16CEA /* SP0T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SP0T.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5934D37220D33C8300D16CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5934D37420D33C8300D16CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5934D37720D33C8300D16CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5934D37920D33C8500D16CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5934D37C20D33C8500D16CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5934D37E20D33C8500D16CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,8 +57,11 @@
 		5934D39220D33C8600D16CEA /* SP0TUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SP0TUITests.swift; sourceTree = "<group>"; };
 		5934D39420D33C8600D16CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5934D3A020D33DB800D16CEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		5934D3A720D4A3F900D16CEA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		594A535820EB221A00A0F90D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		594A535D20EEFB3600A0F90D /* forgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPassword.swift; sourceTree = "<group>"; };
 		594F083220D5E9A4004C2955 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5963CF6A20E5B0AA00848AB0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../../Downloads/SPOT-tyler/Main.storyboard"; sourceTree = "<group>"; };
+		5963CFEC20E98B3600848AB0 /* loginVC.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
 		7EB1BFFEDC727C5C507973DC /* Pods-SP0TTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SP0TTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SP0TTests/Pods-SP0TTests.release.xcconfig"; sourceTree = "<group>"; };
 		848FB3A1D282A65B66267603 /* Pods-SP0T.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SP0T.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SP0T/Pods-SP0T.debug.xcconfig"; sourceTree = "<group>"; };
 		9903592F451B34AEF354DEBB /* Pods_SP0T.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SP0T.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,10 +135,9 @@
 		5934D37120D33C8300D16CEA /* SP0T */ = {
 			isa = PBXGroup;
 			children = (
-				5934D3A720D4A3F900D16CEA /* MainVC.swift */,
+				594A535A20ED78D800A0F90D /* Login */,
 				5934D37220D33C8300D16CEA /* AppDelegate.swift */,
-				5934D37420D33C8300D16CEA /* ViewController.swift */,
-				5934D37620D33C8300D16CEA /* Main.storyboard */,
+				5963CF6A20E5B0AA00848AB0 /* Main.storyboard */,
 				5934D37920D33C8500D16CEA /* Assets.xcassets */,
 				5934D37B20D33C8500D16CEA /* LaunchScreen.storyboard */,
 				5934D37E20D33C8500D16CEA /* Info.plist */,
@@ -160,6 +163,17 @@
 				5934D39420D33C8600D16CEA /* Info.plist */,
 			);
 			path = SP0TUITests;
+			sourceTree = "<group>";
+		};
+		594A535A20ED78D800A0F90D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5934D37420D33C8300D16CEA /* ViewController.swift */,
+				594A535D20EEFB3600A0F90D /* forgotPassword.swift */,
+				5963CFEC20E98B3600848AB0 /* loginVC.swift */,
+				594A535820EB221A00A0F90D /* MainVC.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		B0E95DED9B3085D7D1590F39 /* Pods */ = {
@@ -288,7 +302,7 @@
 				5934D37D20D33C8500D16CEA /* LaunchScreen.storyboard in Resources */,
 				5934D3A120D33DB800D16CEA /* GoogleService-Info.plist in Resources */,
 				5934D37A20D33C8500D16CEA /* Assets.xcassets in Resources */,
-				5934D37820D33C8300D16CEA /* Main.storyboard in Resources */,
+				5963CF6B20E5B0AA00848AB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +407,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -400,6 +415,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,9 +430,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594A535920EB221A00A0F90D /* MainVC.swift in Sources */,
+				5963CFED20E98B3600848AB0 /* loginVC.swift in Sources */,
 				5934D37520D33C8300D16CEA /* ViewController.swift in Sources */,
-				5934D3A820D4A3F900D16CEA /* MainVC.swift in Sources */,
 				5934D37320D33C8300D16CEA /* AppDelegate.swift in Sources */,
+				594A535E20EEFB3600A0F90D /* forgotPassword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,14 +470,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5934D37620D33C8300D16CEA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5934D37720D33C8300D16CEA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5934D37B20D33C8500D16CEA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

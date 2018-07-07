@@ -9,6 +9,8 @@ target 'SP0T' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'GoogleSignIn'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 
  target 'SP0TTests' do
    inherit! :search_paths
